@@ -1,0 +1,15 @@
+h2{
+    color: darkgreen;
+}
+
+/* Class */
+.parrafo{
+    color: darkred;
+    font-size: 80px;
+}
+
+/* Id */
+#texto{
+    color: yellow;
+    font-size: 40px;
+}

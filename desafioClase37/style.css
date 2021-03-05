@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.internalBox {
+    position: absolute;
+    border: 4px black;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 4rem;
+    background-color: red;
+    text-align: center;
+    border: solid 2px black;
+    margin-left: 12rem;
+    top: 6rem;
+
+}
+
+.internalBox2 {
+    border: none;
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    align-content: center;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.externalBox {
+    border: solid 2px black;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 20rem;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    position: relative;
+}
+
+.parrafo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+    align-content: center;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+.father {
+    width: 40rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}

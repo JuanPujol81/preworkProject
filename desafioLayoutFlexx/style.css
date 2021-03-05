@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+
+body {
+	display: flex;
+	margin: 10px;
+	padding: 5px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+
+	
+.headStructure {
+	background: #333;
+	color: white;
+	height: 10rem;
+	width: 100%;
+	flex-direction: flex-start;
+}	
+
+.headStructure a {
+	color: white;
+}
+
+.logo {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+.logo:hover {
+	color: #0b76a6;
+}
+	
+    .logo .site-name {
+	    display: block;
+	    font-weight: 700;
+	    font-size: 1.2em;
+    }
+	
+    .logo .site-desc {
+	    display: block;
+	    font-weight: 300;
+	    font-size: 2rem;
+	    color: #999;
+    }
+
+nav {
+	float: right;
+}
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-right: 20px;
+    }
+
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+        }
+
+            nav ul li a {
+                display: block;
+                padding: 0 10px;
+                text-decoration: none;
+            }
+
+            nav ul li a:hover {
+                background: #0b76a6;
+            }
+
+.main-content {
+    float: right;
+	background: white;
+	width: 85%;
+	height: 35rem;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+    .main-content header, .main-content .content {
+        padding: 40px;
+    }
+
+	.main-footer {
+		display: flex;
+		color: white;
+		box-shadow: 0 0 10px rgba(0,0,0,.1);
+		width: 85%;
+		height: 10rem;
+		bottom: 0;
+	}
+		
+		.fecha {
+			float: left;
+			margin-left: 10rem;
+		    font-weight: 700;
+		    font-size: 1.2em;
+			color: black;
+		}
+
+		.redes-sociales {
+			float: right;
+			margin-right: 10rem;
+		    font-weight: 700;
+		    font-size: 1.2em;
+			color: black;
+		}
+
+	.side-bar {
+		width: 15%;
+		height: 35rem;
+		background-color: rgb(80, 255, 232);
+		float: left;
+		vertical-align: top;
+		color: black;
+	}
+
+
+	iframe {
+		margin: 5px;
+		width: 95%;
+		height: 20%;
+		display: inline-block;
+	}
+	span {
+		margin: 5px;
+	}
